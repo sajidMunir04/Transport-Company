@@ -1,0 +1,21 @@
+
+@media  (max-width: 700px) {
+    .mobile-nav-menu-button
+    {
+        display:block;
+    }
+    nav{
+        display: none;
+    }
+
+    .header-main-navigation-social-links{
+        width: 32%;
+    }
+}
+
+
+@media  (max-width: 1000px) {
+    .header-company-contact-details{
+        display: none;
+    }
+}
