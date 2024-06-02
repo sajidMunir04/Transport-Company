@@ -873,12 +873,12 @@ nav > a{
 }
 
 .contact-us-section-contact-detail-image{
-    width: 16%;
+    width: 20%;
     margin: auto;
 }
 
 .contact-us-section-contact-detail-text{
-    width: 80%;
+    width: 76%;
     height: 40%;
     margin: auto;
 }
@@ -1116,12 +1116,15 @@ footer{
     width: 24%;
     height: 100%;
     background-color: #091242;
+    display: flex;
+}
+
+.footer-social-info-company-info-image{
+    margin: auto;
 }
 
 .footer-social-info-company-info > img{
-    display: block;
-    margin: auto;
-    padding-top: 6%;
+
 }
 
 .footer-social-info-social-links{
@@ -1196,10 +1199,11 @@ footer{
 .footer-company-contact-info{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .footer-company-contact-info-image{
-    width: 24%;
+    width: 17%;
 }
 
 .footer-company-contact-info-text > p{
